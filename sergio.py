@@ -30,7 +30,7 @@ async def subtract(left : int, right : int):
 @bot.command() 
 async def divide(left : int, right : int):
     """Divides two numbers together."""
-    await bot.say(float (left / right)
+    await bot.say(float (left / right))
     
 @bot.command() 
 async def multiply(left : int, right : int):
