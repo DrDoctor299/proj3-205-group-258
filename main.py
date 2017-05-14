@@ -5,6 +5,8 @@ from discord.ext import commands
 description = '''    '''
 bot = commands.Bot(command_prefix='/', description=description)
 
+TOKEN = "Your_token_here"
+
 @bot.event
 async def on_ready():
     print('Logged in as')
@@ -20,4 +22,4 @@ async def join(URL : str):
     player = await voice.create_ytdl_player(URL)
     player.start()
 
-bot.run('Mjk4NzM4Njc1MDQ5NTYyMTE1.C8TxSQ.VNNA08aDymVL7Ch_NV2qm8VKNsU')
+bot.run(TOKEN)
