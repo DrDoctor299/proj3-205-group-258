@@ -10,6 +10,8 @@ import googlemaps
 description = '''  /direction /join  '''
 bot = commands.Bot(command_prefix='/', description=description)
 
+TOKEN = "Your_token_here"
+
 @bot.event
 async def on_ready():
     print('Logged in as')
@@ -77,6 +79,6 @@ async def direction(userStart : str, userFinish : str, myMode : str, myLanguage)
 
 
 
-bot.run('Mjk5NTkwMTE3NzI5NzYzMzMx.C8gGzA.M1gH9w_XI_4iBKA9XsEhnUPm82w')
+bot.run(TOKEN)
 
     
