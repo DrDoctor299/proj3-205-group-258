@@ -18,6 +18,8 @@ async def on_ready():
     print(bot.user.id)
     print('------')
 
+    
+TOKEN = "Your_token_here"
 
 # Bot Adding
 @bot.command()
@@ -45,4 +47,4 @@ async def tothepower(value : int, power : int):
         result = result * value
     await bot.say(result)
     
-bot.run('Mjk5NTkwMTE3NzI5NzYzMzMx.C8gGzA.M1gH9w_XI_4iBKA9XsEhnUPm82w')
+bot.run(TOKEN)
