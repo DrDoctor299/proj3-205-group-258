@@ -13,16 +13,27 @@ How to run: You will first need to be able to install all the libraries given be
 List of required librarys you need to install to make sure all commands work: 
 
 pip install googlemaps
+
 pip install json
+
 pip install request
+
 pip install urllib3 (Important to download version lib3)
+
 pip install urlopen
+
 pip install py_ms_cognifitive
+
 pip install youtube-dl
+
 pip install pyowm
+
 pip install asyncio
+
 pip install -U discord.py[voice]
+
 pip install PyNaCl
+
 pip install aiohttp
 
 
