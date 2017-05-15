@@ -1,3 +1,7 @@
+#Creators: Joshua Williams, Sergio Llopis Donate, Joel Casillas
+#Github Link: https://github.com/DrDoctor299/proj3-205-group-258
+#Date: 5/15/2017
+
 #--------------------------------------------------
 #
 TOKEN = "YOUR TOKEN HERE"
