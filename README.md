@@ -6,11 +6,23 @@ Course: CST 205
 
 Date: 5/15/2017
 
-For this program, you will need to install the latest version of Python 3: https://www.python.org/downloads/release/python-361/
+For this program, you will need to install the latest version of Python 3 (and will not be able to run from cloud 9): https://www.python.org/downloads/release/python-361/
 
-How to run: You will first need to be able to install all the libraries given below, then you will need to create your own bot and obtain your key: https://discordapp.com/developers/applications/me
+You will also need an account with Discord (it's free).
+You will need to create a new server which you can add your bot to (if you do not have one already)
 
-List of required librarys you need to install to make sure all commands work: 
+How to run:
+Then you will need to create your own bot and obtain your key: https://discordapp.com/developers/applications/me
+For step by step instructions, follow this link:
+https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
+
+Once you have your application id, enter this url into any browser:
+https://discordapp.com/oauth2/authorize?&client_id=YOUR_CLIENT_ID_HERE&scope=bot&permissions=0 
+You may select your newly created server, and then add the bot to it.
+
+Go into the Main.py file and change the value of TOKEN (at the top) to be equal to a string of the token generated on the developer page.
+
+Install the following libraries to ensure all of the commands work as intended.
 
 pip install googlemaps
 
@@ -35,6 +47,9 @@ pip install -U discord.py[voice]
 pip install PyNaCl
 
 pip install aiohttp
+
+You will also need to install the ffmpeg player on your system, and add its /bin folder to your PATH environment variable
+Download Link: https://ffmpeg.org/
 
 
 
