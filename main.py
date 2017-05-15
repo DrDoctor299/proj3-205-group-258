@@ -2,8 +2,21 @@
 #Github Link: https://github.com/DrDoctor299/proj3-205-group-258
 #Date: 5/15/2017
 
+#To use this code, it must be linked to an existing Discord server. Follow the instructions at:
+#https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
+#This will create a new bot, and allow you to add it to a server. 
+#It will also generate a token for the bot, which you must copy and use to replace YOUR_TOKEN_HERE below (The value of TOKEN)
+
+#The user may call any of the commands listed here from the linked discord server.
+#To call the commands, use the / prefix (default) followed by command. It may be changed by changing DEFAULT_PREFIX below.
+
+#Joshua Williams developed most of the Music Class
+#Joel Casillas and Sergio Llopis Donate developed the Image class together
+#Joel Casillas and Sergio Llopis Donate each developed numerous commands in the Utilities Class
+
 #--------------------------------------------------
 #
+DEFAULT_PREFIX = "/"
 TOKEN = "YOUR TOKEN HERE"
 #
 #--------------------------------------------------
@@ -445,7 +458,7 @@ class Music:
 
 
 description = '''The MemeTron Super Bot has endless functionality to fight back your crippling depression, annoy your friends, listen to music and pull images.'''
-bot = commands.Bot(command_prefix='/', description=description)
+bot = commands.Bot(command_prefix= DEFAULT_PREFIX , description=description)
 bot.add_cog(Utilities(bot))
 bot.add_cog(Music(bot))
 bot.add_cog(Images(bot))
