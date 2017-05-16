@@ -6,6 +6,8 @@ Course: CST 205
 
 Date: 5/15/2017
 
+Github Link: https://github.com/DrDoctor299/proj3-205-group-258
+
 For this program, you will need to install the latest version of Python 3 (and will not be able to run from cloud 9): https://www.python.org/downloads/release/python-361/
 
 You will also need an account with Discord (it's free).
