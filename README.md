@@ -53,6 +53,10 @@ pip install aiohttp
 You will also need to install the ffmpeg player on your system, and add its /bin folder to your PATH environment variable
 Download Link: https://ffmpeg.org/
 
+Future work will include implementing a soundboard. This will stream audio from a file (rather than Youtube).
+Future versions will also include event handling (entering and leaving a voice channel)
+Future versions will have a more detailed queue function, which will allow users to print the entire queue; and edit individual lines.
+Future work will also iron out various bugs discovered in the meantime.
 
 
 
